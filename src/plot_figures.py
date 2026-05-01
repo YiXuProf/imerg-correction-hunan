@@ -564,8 +564,6 @@ def plot_all():
     )
     panel_idx = 0
     for r, yr in enumerate(sorted(bias_fields.keys())):
-        obs_year = year_fields[yr]["obs"].values
-        rf_year = year_fields[yr]["rf"].values
         for c, (key, tt) in enumerate([("ib", f"IMERG Bias ({yr})"), ("rb", f"RF Bias ({yr})")]):
             ax = axes[r, c]
             d = bias_fields[yr][key]
@@ -579,7 +577,6 @@ def plot_all():
             panel_idx += 1
             format_map_axis(ax)
             overlay_boundary(ax, hunan_boundary)
-            add_spatial_corr_text(ax, obs_year, rf_year)
     cb = fig.colorbar(im, ax=axes, pad=0.02, fraction=0.028)
     cb.set_label("Bias (mm d$^{-1}$)")
     save_fig(fig, "Bias_Comparison")
