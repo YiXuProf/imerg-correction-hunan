@@ -1,0 +1,16 @@
+gitignore
+# Python
+__pycache__/
+*.py[cod]
+
+# 模型和输出
+models/
+outputs/
+
+# 虚拟环境
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/

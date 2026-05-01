@@ -1,0 +1,11 @@
+numpy
+pandas
+xarray
+scikit-learn
+joblib
+matplotlib
+netcdf4
+openpyxl
+scipy
+shap
+geopandas
