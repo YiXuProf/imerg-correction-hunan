@@ -94,4 +94,8 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) fi
 
 ## Citation
 
-If you use this repository in published work, cite the IMERG and CN05.1/ERA5 products you used, and add a reference to this codebase as appropriate.
+If you use this repository in published work, please cite the code itself using the Zenodo DOI and refer to the data sources as appropriate:
+
+Yi Xu. (2026). *IMERG precipitation correction pipeline over Hunan Province (v1.0.0).* Zenodo. [https://doi.org/10.5281/zenodo.19937476](https://doi.org/10.5281/zenodo.19937476)
+
+Additionally, remember to cite the IMERG, CN05.1, and ERA5 products you used.
